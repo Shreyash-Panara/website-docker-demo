@@ -2,7 +2,7 @@ pipeline {
     agent any  
 
     environment {  
-        AWS_REGION = 'us-east-1a'  
+        AWS_REGION = 'us-east-1'  
         ECR_REPO = 'website-docker-demo'  
         AWS_ACCOUNT_ID = '106013406233'  
         IMAGE_TAG = "${env.BUILD_NUMBER}"  
